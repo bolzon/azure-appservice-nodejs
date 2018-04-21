@@ -43,6 +43,8 @@ app.post('/trigger', (req, res) => {
   });
 });
 
+// função para teste local
+
 app.post('/sum', (req, res) => {
 
   const msg = req.body; // { numA, numB }
