@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.end('Olá mundo!');
+  res.end('Azure App Services + NodeJS rock!');
 });
 
 const port = process.env.PORT || 1337;
