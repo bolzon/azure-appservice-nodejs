@@ -1,3 +1,8 @@
+/**
+ * Aplicação NodeJS exemplo para rodar no Azure App Service.
+ * @author Bolzon <blzn@mail.ru>
+ * @date 21 de abril de 2018
+ */
 
 const request = require('request');
 const express = require('express');

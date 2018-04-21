@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Bash para fazer chamada no Azure App Service integrando com Azure Function.
+# @author Bolzon <blzn@mail.ru>
+# @date 21 de abril de 20108
+
 if [ 2 -gt $# ]; then
   printf '\nUSAGE: sh call_func.sh <url_appservice> <url_function>\n\n'
   exit 1
